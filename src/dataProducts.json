@@ -1,0 +1,74 @@
+{
+  "productos": [
+    {
+      "nombre": "Laptop HP Pavilion",
+      "codigo": "LAP-001",
+      "caracteristicas": "Intel Core i5, 8GB RAM, 256GB SSD, 15.6 pulgadas",
+      "precio": "899.99",
+      "empresa": "HP Inc."
+    },
+    {
+      "nombre": "Monitor Dell UltraSharp",
+      "codigo": "MON-002",
+      "caracteristicas": "27 pulgadas, 4K UHD, HDR, USB-C",
+      "precio": "499.99",
+      "empresa": "Dell Technologies"
+    },
+    {
+      "nombre": "Teclado Mecánico Logitech",
+      "codigo": "TEC-003",
+      "caracteristicas": "Switches GX Blue, RGB, USB passthrough",
+      "precio": "129.99",
+      "empresa": "Logitech"
+    },
+    {
+      "nombre": "Mouse Gaming Razer",
+      "codigo": "MOU-004",
+      "caracteristicas": "20,000 DPI, RGB, 8 botones programables",
+      "precio": "79.99",
+      "empresa": "Razer Inc."
+    },
+    {
+      "nombre": "Auriculares Sony WH-1000XM4",
+      "codigo": "AUD-005",
+      "caracteristicas": "Noise Cancelling, 30h batería, Bluetooth 5.0",
+      "precio": "349.99",
+      "empresa": "Sony Corporation"
+    },
+    {
+      "nombre": "Tablet Samsung Galaxy Tab S8",
+      "codigo": "TAB-006",
+      "caracteristicas": "11 pulgadas, S Pen incluido, 128GB",
+      "precio": "699.99",
+      "empresa": "Samsung Electronics"
+    },
+    {
+      "nombre": "Impresora Epson EcoTank",
+      "codigo": "IMP-007",
+      "caracteristicas": "Tanque de tinta, WiFi, Escáner integrado",
+      "precio": "299.99",
+      "empresa": "Epson"
+    },
+    {
+      "nombre": "Disco Duro Externo WD",
+      "codigo": "HDD-008",
+      "caracteristicas": "2TB, USB 3.0, Resistente a golpes",
+      "precio": "89.99",
+      "empresa": "Western Digital"
+    },
+    {
+      "nombre": "Webcam Logitech C920",
+      "codigo": "CAM-009",
+      "caracteristicas": "1080p, Autofocus, Micrófono integrado",
+      "precio": "69.99",
+      "empresa": "Logitech"
+    },
+    {
+      "nombre": "Router ASUS RT-AX86U",
+      "codigo": "ROU-010",
+      "caracteristicas": "WiFi 6, 2.4GHz/5GHz, 4 puertos LAN",
+      "precio": "249.99",
+      "empresa": "ASUS"
+    }
+  ]
+}

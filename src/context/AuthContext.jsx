@@ -5,10 +5,11 @@ export const AuthContext = createContext();
 export const AuthProvider = ({ children }) => {
   const [user, setUser] = useState(null);
 
-  const login = (email) => {
+  const login = (userData) => {
     //simulacion de backend
-    console.log("Hizo login ", email);
+    setUser(userData);
   };
+
   const logout = () => {
     setUser(null);
     console.log("Se desconecto la presa");
