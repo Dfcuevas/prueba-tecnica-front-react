@@ -6,21 +6,23 @@ import { PrivateRoute } from "./routes/PrivateRoute";
 import Empresas from "./components/organisms/Empresas";
 import Productos from "./components/organisms/Productos";
 import Inventario from "./components/organisms/Inventario";
+import HomePage from "./components/templates/HomePage";
 
 function App() {
   return (
     <AuthProvider>
       <BrowserRouter>
         <Routes>
-          <Route path="/login" element={<LoginPage />} />
           <Route
-            path="/empresas"
+            path="/"
             element={
               <PrivateRoute allowedRoles={["admin"]}>
-                <Empresas />
+                <HomePage />
               </PrivateRoute>
             }
           />
+          <Route path="/login" element={<LoginPage />} />
+          <Route path="/empresas" element={<Empresas />} />
           <Route
             path="/productos"
             element={
@@ -32,7 +34,7 @@ function App() {
           <Route
             path="/inventario"
             element={
-              <PrivateRoute allowedRoles={["admin"]}>
+              <PrivateRoute>
                 <Inventario />
               </PrivateRoute>
             }

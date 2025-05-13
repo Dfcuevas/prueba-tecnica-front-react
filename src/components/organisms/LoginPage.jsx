@@ -13,7 +13,7 @@ const LoginPage = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     login(user);
-    navigate("/inventario");
+    navigate("/");
   };
 
   return (
